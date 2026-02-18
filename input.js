@@ -32,27 +32,27 @@
 
 // tsking input from user using Inquirer.js
 
-// const inquirer = require('inquirer');
+const inquirer = require('inquirer');
 
-// async function main() {
-//     try {
-//         const answers = await inquirer.prompt([
-//             {
-//                 type: 'input',
-//                 name: 'name',
-//                 message: 'What is your name?'
-//             },
-//             {
-//                 type: 'input',
-//                 name: 'age',
-//                 message: 'What is your age?'
-//             }
-//         ]);
-//         console.log(`Hello, ${answers.name}! You are ${answers.age} years old.`);
-//     } catch (error) {
-//         console.error('An error occurred:', error);
-//     }
-// }
+async function main() {
+    try {
+        const answers = await inquirer.prompt([
+            {
+                type: 'input',
+                name: 'name',
+                message: 'What is your name?'
+            },
+            {
+                type: 'input',
+                name: 'age',
+                message: 'What is your age?'
+            }
+        ]);
+        console.log(`Hello, ${answers.name}! You are ${answers.age} years old.`);
+    } catch (error) {
+        console.error('An error occurred:', error);
+    }
+}
 
 
 // profile project 
@@ -83,8 +83,8 @@
 
 // Woring with yargs or taking input with the help of yargs 
 
-const yargs = require('yargs');
+// const yargs = require('yargs');
 
-const argv = yargs.argv;
+// const argv = yargs.argv;
 
-console.log("Name:", argv.name);
+// console.log("Name:", argv.name);
