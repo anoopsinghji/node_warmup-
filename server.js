@@ -3,12 +3,18 @@ const http = require('http');
 const express = require('express');
 
 const app = express();
+
+const aboutRouter = require('./about');
+
+app.use('/about', aboutRouter);
+
+
 app.get('/', (req, res) => {
-    res.send('Hello World!');
+    res.send(' this home page');
 });
 
-app.get('/about', (req, res) => {
-    res.send('About Page');
+app.get('/login', (req, res) => {
+    res.send('this Login Page');
 });
 
 const server = http.createServer(app);  
