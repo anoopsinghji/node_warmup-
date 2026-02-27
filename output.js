@@ -1,0 +1,41 @@
+function getUserReport() {
+  return [
+    {
+      id: 1,
+      name: "Rahul_Sharma",
+      subject: "Mathematics",
+      rating: 4.5,
+      feedback: "Explains_concepts_clearly"
+    },
+    {
+      id: 2,
+      name: "Anoop_Singh",
+      subject: "Computer_Science",
+      rating: 4.8,
+      feedback: "Very_practical_teaching"
+    },
+    {
+      id: 3,
+      name: "Neha_Verma",
+      subject: "English",
+      rating: 4.2,
+      feedback: "Good_communication_skills"
+    },
+    {
+      id: 4,
+      name: "Rohit_Kumar",
+      subject: "Physics",
+      rating: 4.0,
+      feedback: "Strong_conceptual_knowledge"
+    },
+    {
+      id: 5,
+      name: "Priya_Patel",
+      subject: "Chemistry",
+      rating: 4.6,
+      feedback: "Explains_with_real_examples"
+    }
+  ];
+}
+
+exports.getUserReport = getUserReport;
