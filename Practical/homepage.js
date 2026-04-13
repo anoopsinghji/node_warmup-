@@ -7,7 +7,7 @@ router.get('/', (req, res) => {
       <!DOCTYPE html>
       <html>
         <head>
-          <title>Home - MyApp</title>
+          <title>Home AMS</title>
           <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet">
           <style>
             * {
@@ -81,12 +81,12 @@ router.get('/', (req, res) => {
         </head>
         <body>
           <nav>
-            <div class="navbar-brand">MyApp</div>
+            <div class="navbar-brand">AMS</div>
             <ul>
               <li><a href="/">Home</a></li>
-              <li><a href="/aboutus">About Us</a></li>
-              <li><a href="/services">Services</a></li>
-              <li><a href="/login">Login</a></li>
+              <li><a href="">About Us</a></li>
+              <li><a href="">Services</a></li>
+              <li><a href="">Login</a></li>
             </ul>
           </nav>
 
